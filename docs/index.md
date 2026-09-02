@@ -15,43 +15,36 @@ hide:
 
 ## 第一次来？
 
-刚进组、第一次打开这个手册，不必从第 1 计一路读到第 36 计。
-按你现在的阶段，走一条路线就够了：
+不必从第 1 计一路读到第 36 计。先理解科研在做什么，再按需要学习方法、查找工具。
 
-<div class="grid cards" markdown>
+<div class="grid cards home-start-grid" markdown>
 
--    :material-seedling:{ .lg .middle } __🌱 新生入门路线__
+-   :material-lightbulb-on-outline:{ .lg .middle } __科研思维__
 
-     ---
-    刚入组、还没开始具体工作。先把"地基"打好。
+    ---
+    先理解：研究对象 → 问题 → 贡献 → 方法 → 证据。
 
-    ① 先读：[第1计](ch1-xunwen/计1.md) · [第7计](ch2-duwen/计7.md) · [第8计](ch2-duwen/计8.md) · [第15计](ch3-gongju/计15.md) · [第19计](ch4-shiyan/计19.md) · [第31计](ch6-shengcun/计31.md)
-    ② 再配置：[Zotero](resources/zotero.md) + [Git/GitHub](resources/git-github.md) + [VS Code](resources/vscode-latex.md) + [WSL](resources/wsl.md)
-    ③ 了解组内怎么做事：[组内科研规范](lab-norms/index.md)
+    [:octicons-arrow-right-24: 先理解科研](research-thinking/index.md)
 
--    :material-file-document-outline:{ .lg .middle } __📄 第一次读论文路线__
+-   :material-book-open-page-variant:{ .lg .middle } __科研三十六计__
 
-     ---
-    拿到了要读的论文，想真正读懂。
+    ---
+    再学习：寻文 → 读文 → 工具 → 实验 → 写作 → 生存。
 
-    [第7计 第一遍读什么](ch2-duwen/计7.md) → [第8计 摘要怎么看](ch2-duwen/计8.md) → [第9计 需要翻译吗](ch2-duwen/计9.md) → [第10计 公式看不懂](ch2-duwen/计10.md) → [第11计 读多深](ch2-duwen/计11.md) → [第12计 笔记记什么](ch2-duwen/计12.md)
+    [:octicons-arrow-right-24: 选择一篇开始](#strategies)
 
--    :material-flask-outline:{ .lg .middle } __🧪 第一次做科研项目路线__
+-   :material-toolbox-outline:{ .lg .middle } __科研资源__
 
-     ---
-    准备动手做实验、写论文、组会汇报。
+    ---
+    需要时查：CCF、Zotero、Git、WSL、LaTeX 与 AI。
 
-    ① 组会前读：[第31–34计](ch6-shengcun/index.md)
-    ② 实验前读：[第19–24计](ch4-shiyan/index.md)
-    ③ 写作前读：[第25–30计](ch5-xiezuo/index.md)
-    ④ 投稿前读：[第35计 检查清单](ch6-shengcun/计35.md)
+    [:octicons-arrow-right-24: 按需查找](resources/index.md)
 
 </div>
 
-!!! tip "为什么这样排"
-    这三条路线不是按编号，而是按**你当下要解决的事**排的。
-    编号只是目录，路线才是手册。等你用过一两次，会发现该补的内容自然会浮现出来。
+## 三十六计 { #strategies }
 
+<div class="grid cards home-strategy-grid" markdown>
 
 -   :material-book-open-page-variant:{ .lg .middle } __寻文篇 · 如何找到值得读的论文__
 
@@ -108,16 +101,18 @@ hide:
 
     [:octicons-arrow-right-24: 前往](resources/index.md)
 
+-   :material-lightbulb-on-outline:{ .lg .middle } __科研思维__
+
+    ---
+    从研究对象、问题、贡献、方法和证据理解科研判断。
+
+    [:octicons-arrow-right-24: 前往](research-thinking/index.md)
+
 -   :material-clipboard-list-outline:{ .lg .middle } __组内科研规范__
 
     ---
     课题组文献、代码、实验、写作与汇报的约定。
 
     [:octicons-arrow-right-24: 前往](lab-norms/index.md)
--    :material-lightbulb-on-outline:{ .lg .middle } __科研思维__
 
-     ---
-    研究对象 · 研究问题 · 贡献 · 方法 · 证据：怎么判断一个研究值不值得做。
-
-     [:octicons-arrow-right-24: 前往](research-thinking/index.md)
 </div>
