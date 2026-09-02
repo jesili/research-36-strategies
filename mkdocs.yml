@@ -1,0 +1,130 @@
+site_name: 科研三十六计
+site_description: 面向网络空间安全研一学生的科研入门手册
+site_author: 课题组
+repo_url: https://github.com/jesili/research-36-strategies
+edit_uri: edit/main/docs/
+
+nav:
+  - 首页: index.md
+  - 第一篇 · 寻文篇:
+    - 寻文篇: ch1-xunwen/index.md
+    - 第1计 · 从哪里找论文: ch1-xunwen/计1.md
+    - 第2计 · 论文值不值得看: ch1-xunwen/计2.md
+    - 第3计 · 找到代表性论文: ch1-xunwen/计3.md
+    - 第4计 · 关键词怎么搜: ch1-xunwen/计4.md
+    - 第5计 · 跟踪最新研究: ch1-xunwen/计5.md
+    - 第6计 · 文献搜到什么时候: ch1-xunwen/计6.md
+  - 第二篇 · 读文篇:
+    - 读文篇: ch2-duwen/index.md
+    - 第7计 · 第一遍读什么: ch2-duwen/计7.md
+    - 第8计 · 摘要怎么看: ch2-duwen/计8.md
+    - 第9计 · 需要全文翻译吗: ch2-duwen/计9.md
+    - 第10计 · 公式看不懂怎么办: ch2-duwen/计10.md
+    - 第11计 · 一篇要读多深: ch2-duwen/计11.md
+    - 第12计 · 笔记记什么: ch2-duwen/计12.md
+  - 第三篇 · 工具篇:
+    - 工具篇: ch3-gongju/index.md
+    - 第13计 · 文献管理: ch3-gongju/计13.md
+    - 第14计 · 分类与命名: ch3-gongju/计14.md
+    - 第15计 · 大模型能帮什么: ch3-gongju/计15.md
+    - 第16计 · 什么不能信大模型: ch3-gongju/计16.md
+    - 第17计 · 让AI帮读论文: ch3-gongju/计17.md
+    - 第18计 · 防AI幻觉: ch3-gongju/计18.md
+  - 第四篇 · 实验篇:
+    - 实验篇: ch4-shiyan/index.md
+    - 第19计 · 科研代码管理: ch4-shiyan/计19.md
+    - 第20计 · Git学到什么程度: ch4-shiyan/计20.md
+    - 第21计 · 论文代码复现: ch4-shiyan/计21.md
+    - 第22计 · 实验常见错误: ch4-shiyan/计22.md
+    - 第23计 · 数据结果保存: ch4-shiyan/计23.md
+    - 第24计 · 实验何时完成: ch4-shiyan/计24.md
+  - 第五篇 · 写作篇:
+    - 写作篇: ch5-xiezuo/index.md
+    - 第25计 · 作图用什么工具: ch5-xiezuo/计25.md
+    - 第26计 · 好图长什么样: ch5-xiezuo/计26.md
+    - 第27计 · 论文从哪开始写: ch5-xiezuo/计27.md
+    - 第28计 · 写作基本逻辑: ch5-xiezuo/计28.md
+    - 第29计 · LaTeX学到什么程度: ch5-xiezuo/计29.md
+    - 第30计 · Overleaf还是本地: ch5-xiezuo/计30.md
+  - 第六篇 · 生存篇:
+    - 生存篇: ch6-shengcun/index.md
+    - 第31计 · 汇报怎么讲: ch6-shengcun/计31.md
+    - 第32计 · 提问问什么: ch6-shengcun/计32.md
+    - 第33计 · 向导师汇报: ch6-shengcun/计33.md
+    - 第34计 · 何时找导师: ch6-shengcun/计34.md
+    - 第35计 · 投稿前检查什么: ch6-shengcun/计35.md
+    - 第36计 · 长期习惯: ch6-shengcun/计36.md
+  - 科研资源导航:
+    - 资源导航: resources/index.md
+    - CCF推荐目录: resources/ccf.md
+    - 安徽大学自然科学导向性期刊目录: resources/ahu-journal.md
+    - Zotero安装和使用: resources/zotero.md
+    - Overleaf: resources/overleaf.md
+    - VS Code + LaTeX: resources/vscode-latex.md
+    - WSL科研环境: resources/wsl.md
+    - Git/GitHub: resources/git-github.md
+    - 学术搜索: resources/academic-search.md
+    - AI辅助科研: resources/ai-research.md
+  - 组内科研规范: lab-norms/index.md
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.indexes
+    - navigation.sections
+    - toc.follow
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tabs.link
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+  font:
+    text: Noto Sans SC
+    code: JetBrains Mono
+  icon:
+    logo: material/book-open-page-variant
+
+plugins:
+  - search:
+      lang:
+        - zh
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+
+extra:
+  generator: false
+
+copyright: Copyright &copy; 2026 课题组
