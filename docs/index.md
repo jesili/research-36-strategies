@@ -65,7 +65,7 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :material-atlas:{ .lg .middle } __科研资源导航__
+-   :material-earth:{ .lg .middle } __科研资源导航__
 
     ---
     CCF 目录、Zotero、Overleaf、学术搜索等官方入口速查。
