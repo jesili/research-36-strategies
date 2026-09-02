@@ -21,6 +21,14 @@ Windows 同学如果后续实验主要在 Linux 下完成，可以把项目直�
 !!! note "原则"
     环境统一优先于"看起来专业"。如果 Overleaf 已经稳定满足协作需求，没有必要为了本地化而折腾数天。
 
+## 安装完成检查
+
+- [ ] 终端里 `latexmk`、`xelatex`/`pdflatex` 命令都能跑
+- [ ] 打开一个 `.tex`，用 LaTeX Workshop **编译出 PDF**
+- [ ] 能 **SyncTeX 正反向跳转**（改正文→PDF，点 PDF→正文）
+- [ ] 能 `cite` 一条 BibTeX 文献并成功生成参考文献
+- [ ] WSL 用户：VS Code 能 **Connect to WSL** 并编译 WSL 里的项目
+
 ## 官方入口
 
 - VS Code：https://code.visualstudio.com/
@@ -33,5 +41,7 @@ Windows 同学如果后续实验主要在 Linux 下完成，可以把项目直�
 
 - [Overleaf](overleaf.md)
 - [WSL 科研环境](wsl.md)
+
+> 最后更新：2026-09 · 适用：LaTeX Workshop 最新稳定版
 
 [返回导航](../resources/index.md)

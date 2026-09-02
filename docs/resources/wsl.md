@@ -8,16 +8,49 @@ Windows 同学做大多数安全、密码学、AI/系统实验时，可以优先
 
 ## 最小安装
 
-Windows 10 2004+ 或 Windows 11：
+Windows 10 2004+ 或 Windows 11。在**管理员 PowerShell**中执行，重启后按提示初始化 Ubuntu：
 
 ```powershell
+# 安装并默认启用 WSL2 + Ubuntu
 wsl --install
-```
 
-在管理员 PowerShell 中执行，重启后按提示初始化 Ubuntu。
+# 查看已安装发行版及其版本
+wsl --list --verbose
+```
 
 !!! tip "原则"
     不要为了"环境高级"而复杂化环境：能稳定、可重复地跑实验比环境形式更重要。
+
+## 安装完成后的建议
+
+进 Ubuntu 后，先装好常用工具链，再开始写代码：
+
+```bash
+# 更新并升级系统
+sudo apt update
+sudo apt upgrade
+
+# 常用科研工具
+sudo apt install git build-essential python3 python3-pip
+```
+
+接着用 **VS Code 的 Remote - WSL** 连接：
+
+1. VS Code 安装扩展 **Remote - WSL**。
+2. 命令面板 → `Remote-WSL: Connect to WSL`。
+3. 打开 WSL 里的项目文件夹，之后所有终端、文件、扩展都跑在 Linux 里。
+
+!!! note "为什么这样接"
+    把项目放在 WSL 的 Linux 文件系统里，"代码环境"和"实验环境"就统一了，
+    避免 Windows 与 Linux 路径、依赖、版本各搞一套。详见 [VS Code + LaTeX](vscode-latex.md)。
+
+## 安装完成检查
+
+- [ ] `wsl --install` 完成并已重启
+- [ ] `wsl --list --verbose` 能看到一个 `WSL2` 状态的发行版
+- [ ] 能 `git clone` 一个仓库并成功 `push`
+- [ ] `python3 --version` 与 `gcc --version` 都可用
+- [ ] VS Code 能通过 Remote - WSL 打开 WSL 里的项目
 
 ## 环境选型速查
 
@@ -42,5 +75,7 @@ wsl --install
 ## 相关
 
 - [VS Code + LaTeX](vscode-latex.md)
+
+> 最后更新：2026-09 · 适用：Windows 11 / WSL2 / Ubuntu
 
 [返回导航](../resources/index.md)

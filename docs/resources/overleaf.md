@@ -32,4 +32,6 @@
 - [第30计：Overleaf 和本地 VS Code 怎么选？](../ch5-xiezuo/计30.md)
 - [第29计：LaTeX 需要学到什么程度？](../ch5-xiezuo/计29.md)
 
+> 最后更新：2026-09
+
 [返回导航](../resources/index.md)
