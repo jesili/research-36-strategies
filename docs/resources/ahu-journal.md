@@ -25,7 +25,7 @@
 
 ## 官方入口
 
-- **安徽大学自然科学导向性期刊目录（官方 PDF）**：https://icsp.ahu.edu.cn/_upload/article/files/89/6c/8382086b4b7c94bab8ffcc520b36/dab46fcf-e36c-4103-bbc9-38d26814bfde.pdf
+- **安徽大学自然科学导向性期刊目录（官方 PDF）**：[官方 PDF](https://icsp.ahu.edu.cn/_upload/article/files/89/6c/8382086b4b7c94bab8ffcc520b36/dab46fcf-e36c-4103-bbc9-38d26814bfde.pdf)
 
 ## 相关
 

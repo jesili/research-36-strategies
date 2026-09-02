@@ -31,11 +31,11 @@ Windows 同学如果后续实验主要在 Linux 下完成，可以把项目直�
 
 ## 官方入口
 
-- VS Code：https://code.visualstudio.com/
-- VS Code 入门文档：https://code.visualstudio.com/docs/getstarted/overview
-- LaTeX Workshop（VS Code Marketplace）：https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop
-- TeX Live：https://www.tug.org/texlive/
-- MacTeX：https://www.tug.org/mactex/
+- VS Code：[VS Code](https://code.visualstudio.com/)
+- VS Code 入门文档：[VS Code 入门文档](https://code.visualstudio.com/docs/getstarted/overview)
+- LaTeX Workshop（VS Code Marketplace）：[LaTeX Workshop](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
+- TeX Live：[TeX Live](https://www.tug.org/texlive/)
+- MacTeX：[MacTeX](https://www.tug.org/mactex/)
 
 ## 相关
 

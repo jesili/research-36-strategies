@@ -70,7 +70,7 @@ sudo apt install git build-essential python3 python3-pip
 
 ## 官方入口
 
-- Microsoft WSL 官方安装文档：https://learn.microsoft.com/windows/wsl/install
+- Microsoft WSL 官方安装文档：[Microsoft WSL 官方安装文档](https://learn.microsoft.com/windows/wsl/install)
 
 ## 相关
 

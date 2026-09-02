@@ -29,7 +29,7 @@ CCF 推荐国际学术会议和期刊目录是计算机领域非常重要的导�
 
 ## 官方入口
 
-- **CCF 推荐国际学术会议和期刊目录（官方入口）**：https://www.ccf.org.cn/Academic_Evaluation/By_category/
+- **CCF 推荐国际学术会议和期刊目录（官方入口）**：[CCF 官方入口](https://www.ccf.org.cn/Academic_Evaluation/By_category/)
 
 ## 相关
 

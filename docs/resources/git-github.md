@@ -58,8 +58,8 @@ git merge <name>
 
 ## 官方入口
 
-- Git：https://git-scm.com/
-- GitHub：https://github.com/
+- Git：[Git](https://git-scm.com/)
+- GitHub：[GitHub](https://github.com/)
 
 ## 相关
 

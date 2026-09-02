@@ -65,11 +65,11 @@ Research
 
 ## 官方入口
 
-- Zotero 下载：https://www.zotero.org/downloads
-- Zotero 官方安装说明：https://www.zotero.org/support/installation
-- Zotero Quick Start Guide：https://www.zotero.org/support/quick_start_guide
-- Zotero Word Processor Integration：https://www.zotero.org/support/word_processor_plugin_installation
-- Zotero 生成参考文献：https://www.zotero.org/support/creating_bibliographies
+- Zotero 下载：[Zotero 下载](https://www.zotero.org/downloads)
+- Zotero 官方安装说明：[Zotero 官方安装说明](https://www.zotero.org/support/installation)
+- Zotero Quick Start Guide：[Zotero Quick Start Guide](https://www.zotero.org/support/quick_start_guide)
+- Zotero Word Processor Integration：[Zotero Word Processor Integration](https://www.zotero.org/support/word_processor_plugin_installation)
+- Zotero 生成参考文献：[Zotero 生成参考文献](https://www.zotero.org/support/creating_bibliographies)
 
 ## 相关
 
