@@ -115,4 +115,11 @@ hide:
 
     [:octicons-arrow-right-24: 前往](lab-norms/index.md)
 
+-   :material-alert-decagram-outline:{ .lg .middle } __科研避坑指南__
+
+    ---
+    用常见反例检查问题、方法、实验与写作中的判断偏差。
+
+    [:octicons-arrow-right-24: 前往](research-pitfalls/index.md)
+
 </div>

@@ -66,6 +66,7 @@ nav:
     - 学术搜索: resources/academic-search.md
     - AI辅助科研: resources/ai-research.md
   - 科研思维：研究对象·问题·贡献·方法·证据: research-thinking/index.md
+  - 科研避坑指南: research-pitfalls/index.md
   - 组内科研规范: lab-norms/index.md
 theme:
   name: material
