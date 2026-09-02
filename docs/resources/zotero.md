@@ -1,18 +1,22 @@
-# Zotero 安装和使用
+# Zotero
 
 目标不是"会用所有 Zotero 功能"，而是在 **20 分钟内**形成论文进入、整理、阅读、引用的闭环。
 
-!!! abstract "一句话"
+!!! info "一句话"
     安装完成 ≠ 会用。按下面的 **checklist** 逐项打勾，才算真的能上手。
 
-## 安装
+## 适合什么时候用
+
+当你开始稳定阅读、需要管理题录与 PDF，或准备在 Word、LaTeX 中插入引用时，就应使用 Zotero。它适合长期文献库，不适合把未经筛选的搜索结果全部堆进去。
+
+## 安装 / 入口
 
 1. 进入 Zotero 官方下载页，安装桌面客户端。
 2. 同时安装浏览器 **Zotero Connector**。Chrome/Firefox/Edge 可直接安装；Safari Connector 随 Zotero 提供，可在 Safari 扩展设置中启用。
 3. 注册 Zotero 账号并登录，用于同步文献元数据和组库。PDF 同步空间有限，可根据自己的需求决定附件同步方式。
 4. 打开一篇 IEEE/ACM/arXiv/期刊网页，点击浏览器 Connector，确认论文条目、作者、年份、DOI 和 PDF 能正确进入 Zotero。
 
-## 安装完成检查
+## 最小使用流程
 
 照着逐项打勾，全部通过才算装完：
 
@@ -58,12 +62,12 @@ Research
 
 插件不是越多越好，先用官方功能建立稳定流程，再根据需要添加可信插件。
 
-## 底线
+## 常见问题
 
-!!! danger "投稿前"
+!!! warning "投稿前"
     文献管理器里的元数据也会错。真正投稿前，作者、题目、venue、年份、页码、DOI 应与**出版社/会议官方页面**核对。
 
-## 官方入口
+## 官方资源
 
 - Zotero 下载：[Zotero 下载](https://www.zotero.org/downloads)
 - Zotero 官方安装说明：[Zotero 官方安装说明](https://www.zotero.org/support/installation)

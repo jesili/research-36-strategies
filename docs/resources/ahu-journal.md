@@ -20,7 +20,7 @@
 - 期刊：TDSC、TIFS、Journal of Cryptology
 - 会议：INFOCOM、NSDI、CCS、EUROCRYPT、IEEE S&P、CRYPTO、USENIX Security、NDSS、ASIACRYPT
 
-!!! note "最终依据"
+!!! info "最终依据"
     实际认定请始终以**学校最新文件和相关管理办法**为准。
 
 ## 官方入口

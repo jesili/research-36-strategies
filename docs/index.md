@@ -6,43 +6,54 @@ hide:
 
 <div class="md-hero">
   <h1 class="md-hero__title">科研三十六计</h1>
-  <p class="md-hero__subtitle">面向网络空间安全研一学生的科研入门手册</p>
+  <p class="md-hero__subtitle">面向网络空间安全研究生的科研入门手册</p>
   <div class="md-hero__road">
     找得到 <span>→</span> 看得懂 <span>→</span> 管得住 <span>→</span> 做得出 <span>→</span> 写得清 <span>→</span> 讲得明
   </div>
-  <p class="md-hero__desc">工具只解决摩擦。真正困难的部分仍然是：看见一个值得研究的问题，判断已有工作哪里不够，提出可以被验证的猜想，然后用足够可信的证据支持或否定它。</p>
+  <p class="md-hero__desc">工具只解决摩擦。真正困难的是发现问题、形成判断并找到可信证据。</p>
+</div>
+
+<div class="grid cards home-thinking-card" markdown>
+
+-   :material-lightbulb-on-outline:{ .lg .middle } __科研思维 · 先理解科研到底在做什么__
+
+    ---
+    研究对象 → 研究问题 → 贡献 → 方法 → 证据
+
+    [:octicons-arrow-right-24: 进入科研思维](research-thinking/index.md)
+
 </div>
 
 ## 第一次来？
 
-不必从第 1 计一路读到第 36 计。先理解科研在做什么，再按需要学习方法、查找工具。
+不必从第 1 计一路读到第 36 计。按你当前要解决的事情，选择一条路线即可。
 
 <div class="grid cards home-start-grid" markdown>
 
--   :material-lightbulb-on-outline:{ .lg .middle } __科研思维__
+-   :material-school:{ .lg .middle } __新生入门__
 
     ---
-    先理解：研究对象 → 问题 → 贡献 → 方法 → 证据。
+    先建立文献、阅读、工具、实验和汇报的最低框架。
 
-    [:octicons-arrow-right-24: 先理解科研](research-thinking/index.md)
+    [:octicons-arrow-right-24: 从第1计开始](ch1-xunwen/计1.md)
 
--   :material-book-open-page-variant:{ .lg .middle } __科研三十六计__
-
-    ---
-    再学习：寻文 → 读文 → 工具 → 实验 → 写作 → 生存。
-
-    [:octicons-arrow-right-24: 选择一篇开始](#strategies)
-
--   :material-toolbox-outline:{ .lg .middle } __科研资源__
+-   :material-file-document-outline:{ .lg .middle } __第一次读论文__
 
     ---
-    需要时查：CCF、Zotero、Git、WSL、LaTeX 与 AI。
+    从第一遍阅读到摘要、公式和笔记，建立阅读方法。
 
-    [:octicons-arrow-right-24: 按需查找](resources/index.md)
+    [:octicons-arrow-right-24: 进入读文篇](ch2-duwen/index.md)
+
+-   :material-flask-outline:{ .lg .middle } __第一次做科研项目__
+
+    ---
+    从代码复现、实验记录到写作汇报，完成一次研究闭环。
+
+    [:octicons-arrow-right-24: 进入实验篇](ch4-shiyan/index.md)
 
 </div>
 
-## 三十六计 { #strategies }
+## 科研三十六计 { #strategies }
 
 <div class="grid cards home-strategy-grid" markdown>
 
@@ -114,12 +125,5 @@ hide:
     课题组文献、代码、实验、写作与汇报的约定。
 
     [:octicons-arrow-right-24: 前往](lab-norms/index.md)
-
--   :material-alert-decagram-outline:{ .lg .middle } __科研避坑指南__
-
-    ---
-    用常见反例检查问题、方法、实验与写作中的判断偏差。
-
-    [:octicons-arrow-right-24: 前往](research-pitfalls/index.md)
 
 </div>
