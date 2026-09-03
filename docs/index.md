@@ -127,3 +127,15 @@ hide:
     [:octicons-arrow-right-24: 前往](lab-norms/index.md)
 
 </div>
+## 友情链接
+
+<div class="grid cards" markdown>
+
+-    :material-link-variant:{ .lg .middle } __郭福春（Fuchun Guo）· 伍伦贡大学__
+
+     ---
+    密码学与网络安全方向，个人主页含论文、专著与教学资料。
+
+     [:octicons-arrow-right-24: 访问](https://documents.uow.edu.au/~fuchun/)
+
+</div>
