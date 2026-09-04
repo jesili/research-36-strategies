@@ -15,10 +15,10 @@ hide:
 
 <div class="grid cards home-thinking-card" markdown>
 
--   :material-lightbulb-on-outline:{ .lg .middle } __科研思维 · 先理解科研到底在做什么__
+-   __科研思维 · 先理解科研到底在做什么__
 
     ---
-    研究对象 → 研究问题 → 贡献 → 方法 → 证据
+    <span class="thinking-flow">研究对象 → 研究问题 → 贡献 → 方法 → 证据</span>
 
     [:octicons-arrow-right-24: 进入科研思维](research-thinking/index.md)
 
@@ -30,21 +30,21 @@ hide:
 
 <div class="grid cards home-start-grid" markdown>
 
--   :material-school:{ .lg .middle } __新生入门__
+-   <span class="card-number">01</span> __新生入门__
 
     ---
     先建立文献、阅读、工具、实验和汇报的最低框架。
 
     [:octicons-arrow-right-24: 从第1计开始](ch1-xunwen/计1.md)
 
--   :material-file-document-outline:{ .lg .middle } __第一次读论文__
+-   <span class="card-number">02</span> __第一次读论文__
 
     ---
     从第一遍阅读到摘要、公式和笔记，建立阅读方法。
 
     [:octicons-arrow-right-24: 进入读文篇](ch2-duwen/index.md)
 
--   :material-flask-outline:{ .lg .middle } __第一次做科研项目__
+-   <span class="card-number">03</span> __第一次做科研项目__
 
     ---
     从代码复现、实验记录到写作汇报，完成一次研究闭环。
@@ -57,42 +57,42 @@ hide:
 
 <div class="grid cards home-strategy-grid" markdown>
 
--   :material-book-open-page-variant:{ .lg .middle } __寻文篇 · 如何找到值得读的论文__
+-   <span class="card-number">01—06</span> __寻文篇 · 如何找到值得读的论文__
 
     ---
     找到论文来源，判断论文价值，形成文献网络。
 
     [:octicons-arrow-right-24: 进入](ch1-xunwen/index.md)
 
--   :material-book-search:{ .lg .middle } __读文篇 · 如何真正读懂一篇论文__
+-   <span class="card-number">07—12</span> __读文篇 · 如何真正读懂一篇论文__
 
     ---
     从摘要到公式，建立属于自己的论文阅读方法。
 
     [:octicons-arrow-right-24: 进入](ch2-duwen/index.md)
 
--   :material-toolbox:{ .lg .middle } __工具篇 · 文献管理与 AI 辅助科研__
+-   <span class="card-number">13—18</span> __工具篇 · 文献管理与 AI 辅助科研__
 
     ---
     管理文献，正确使用 AI，不被幻觉带偏。
 
     [:octicons-arrow-right-24: 进入](ch3-gongju/index.md)
 
--   :material-flask:{ .lg .middle } __实验篇 · 代码、复现与科研实验__
+-   <span class="card-number">19—24</span> __实验篇 · 代码、复现与科研实验__
 
     ---
     让研究问题变成可验证、可重复的实验。
 
     [:octicons-arrow-right-24: 进入](ch4-shiyan/index.md)
 
--   :material-pencil-ruler:{ .lg .middle } __写作篇 · 作图、论文写作与 LaTeX__
+-   <span class="card-number">25—30</span> __写作篇 · 作图、论文写作与 LaTeX__
 
     ---
     让所有文字和图表围绕核心观点组织。
 
     [:octicons-arrow-right-24: 进入](ch5-xiezuo/index.md)
 
--   :material-compass:{ .lg .middle } __生存篇 · 组会、交流与科研习惯__
+-   <span class="card-number">31—36</span> __生存篇 · 组会、交流与科研习惯__
 
     ---
     汇报、提问与长期习惯，走完科研长跑。
